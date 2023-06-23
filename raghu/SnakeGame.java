@@ -54,9 +54,9 @@ public class SnakeGame extends JFrame {
             }
         }
 
-        public void stopLoop() {
+        /*public void stopLoop() {
             running = false;
-        }
+        }*/
     }
 
     private void checkCollision() {

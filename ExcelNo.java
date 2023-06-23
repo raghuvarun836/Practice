@@ -5,6 +5,7 @@ public class ExcelNo
   {
     Scanner obj=new Scanner(System.in);
     String s=obj.next();
+    obj.close();
     System.out.println(ENumeric(s));
   }
   public static int ENumeric(String s)
