@@ -5,6 +5,7 @@ public class Anagram {
         Scanner obj=new Scanner(System.in);
         String s1=obj.nextLine();
         String s2=obj.nextLine();
+        obj.close();
         if(isAnagram(s1,s2))
             System.out.println("Anagram");
         else

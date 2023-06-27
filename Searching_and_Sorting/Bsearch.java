@@ -6,7 +6,7 @@ public class Bsearch {
         //int ar[]={5,3,9,4,7,1,8,2,6,10};
         int ar[]={5,3,2,3,2,3,2,3,2,2,2};
         Arrays.parallelSort(ar);
-        int index=BinSearch(ar,3);
+        int index=BinSearch(ar,4);
         System.out.println(index);
     }
 
