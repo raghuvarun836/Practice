@@ -1,3 +1,4 @@
+package Searching_and_Sorting;
 import java.util.*;
 
 public class Bsearch {
