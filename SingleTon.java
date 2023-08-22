@@ -13,6 +13,6 @@ public class SingleTon
     public static void main(String[] args)
     {
         SingleTon s=SingleTon.getInstance();
-        System.out.println("Singleton class Done");
+        System.out.println("Singleton class Done "+s);
     }
 }

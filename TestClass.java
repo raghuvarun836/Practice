@@ -4,6 +4,7 @@ public class TestClass
 	public static void main(String[] args) {
 		Scanner obj=new Scanner(System.in);
 		int n=obj.nextInt();
+		obj.close();
 		helper(n);
 	}
 	public static void helper(int n)
